@@ -1,0 +1,9 @@
+I:\thor\thor\bin\Release\thor.exe.config
+I:\thor\thor\bin\Release\thor.exe
+I:\thor\thor\bin\Release\thor.pdb
+I:\thor\thor\obj\Release\thor.Form1.resources
+I:\thor\thor\obj\Release\thor.Properties.Resources.resources
+I:\thor\thor\obj\Release\thor.csproj.GenerateResource.Cache
+I:\thor\thor\obj\Release\thor.csproj.CoreCompileInputs.cache
+I:\thor\thor\obj\Release\thor.exe
+I:\thor\thor\obj\Release\thor.pdb

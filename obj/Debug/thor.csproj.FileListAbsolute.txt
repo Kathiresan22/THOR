@@ -1,0 +1,19 @@
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\bin\Debug\thor.exe.config
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\bin\Debug\thor.exe
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\bin\Debug\thor.pdb
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.csprojResolveAssemblyReference.cache
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.Form1.resources
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.Properties.Resources.resources
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.csproj.GenerateResource.Cache
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.exe
+C:\Users\kathir\Documents\Visual Studio 2013\Projects\thor\thor\obj\Debug\thor.pdb
+I:\thor\thor\bin\Debug\thor.exe.config
+I:\thor\thor\bin\Debug\thor.exe
+I:\thor\thor\bin\Debug\thor.pdb
+I:\thor\thor\obj\Debug\thor.csprojResolveAssemblyReference.cache
+I:\thor\thor\obj\Debug\thor.Form1.resources
+I:\thor\thor\obj\Debug\thor.Properties.Resources.resources
+I:\thor\thor\obj\Debug\thor.csproj.GenerateResource.Cache
+I:\thor\thor\obj\Debug\thor.csproj.CoreCompileInputs.cache
+I:\thor\thor\obj\Debug\thor.exe
+I:\thor\thor\obj\Debug\thor.pdb
