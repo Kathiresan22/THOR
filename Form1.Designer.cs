@@ -37,6 +37,7 @@
             this.tesspath_btn = new System.Windows.Forms.Button();
             this.outputPath_textbox = new System.Windows.Forms.TextBox();
             this.outputpath_btn = new System.Windows.Forms.Button();
+            this.read_file_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@
             // 
             // convert
             // 
-            this.convert.Location = new System.Drawing.Point(494, 457);
+            this.convert.Location = new System.Drawing.Point(446, 457);
             this.convert.Name = "convert";
             this.convert.Size = new System.Drawing.Size(136, 23);
             this.convert.TabIndex = 4;
@@ -124,11 +125,22 @@
             this.outputpath_btn.UseVisualStyleBackColor = true;
             this.outputpath_btn.Click += new System.EventHandler(this.outputpath_btn_Click);
             // 
+            // read_file_btn
+            // 
+            this.read_file_btn.Location = new System.Drawing.Point(609, 456);
+            this.read_file_btn.Name = "read_file_btn";
+            this.read_file_btn.Size = new System.Drawing.Size(108, 23);
+            this.read_file_btn.TabIndex = 9;
+            this.read_file_btn.Text = "View";
+            this.read_file_btn.UseVisualStyleBackColor = true;
+            this.read_file_btn.Click += new System.EventHandler(this.read_file_btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 522);
+            this.Controls.Add(this.read_file_btn);
             this.Controls.Add(this.outputpath_btn);
             this.Controls.Add(this.outputPath_textbox);
             this.Controls.Add(this.tesspath_btn);
@@ -157,6 +169,7 @@
         private System.Windows.Forms.Button tesspath_btn;
         private System.Windows.Forms.TextBox outputPath_textbox;
         private System.Windows.Forms.Button outputpath_btn;
+        private System.Windows.Forms.Button read_file_btn;
     }
 }
 

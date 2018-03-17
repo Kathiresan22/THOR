@@ -20,6 +20,8 @@ namespace thor
         {
             InitializeComponent();
             ChangeLan();
+            tesspath_textbox.Text = @"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe";
+
         }
        
 
@@ -45,11 +47,13 @@ namespace thor
             
             try
             {
-               
+
                 // You can start any process, HelloWorld is a do-nothing example.
                 //String outpath = @"E:\THOR\Testing\out";
                 //String tesspath = @"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe";
-                String param=imgpath+" "+outpath+" -l tam";
+                tesspath = tesspath_textbox.Text;
+                String outPathParam = outpath.Remove(outpath.IndexOf("."));
+                String param=imgpath+" "+ outPathParam + " -l tam";
                 Console.WriteLine(tesspath);
                 Console.WriteLine(param);
 
@@ -61,8 +65,7 @@ namespace thor
                 process.Start();
 
                 //Thread.Sleep(3000);
-                readFile();
-                
+
             }
             catch (Exception exe)
             {
@@ -75,8 +78,7 @@ namespace thor
             // File.ReadAllText(@"E:\THOR\Testing\out", Encoding.UTF8);
             // outputTextBox.Text= File.ReadAllText(@"E:\THOR\Testing\out.txt", Encoding.UTF8);
 
-            
-            var fileStream = new FileStream(outpath, FileMode.Open, FileAccess.Read);
+            var fileStream = new FileStream(outpath, FileMode.Open, FileAccess.Read,FileShare.Read);
             using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
             {
                 outputTextBox.Text = streamReader.ReadToEnd();
@@ -107,6 +109,11 @@ namespace thor
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void read_file_btn_Click(object sender, EventArgs e)
+        {
+            readFile();
         }
 
         private void outputpath_btn_Click(object sender, EventArgs e)
